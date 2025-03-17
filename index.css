@@ -56,14 +56,15 @@ button {
 #convert-section {
     margin: 0px;
     background: #1F2937;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
 }
 
 .conversion-box {
+    margin: 0px;
     margin-top: 40px;
     background-color: #273549;
     width: 400px;
