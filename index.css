@@ -1,0 +1,85 @@
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;    
+  font-style: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Inter;
+}
+
+#hero {
+    background-color: #6943FF;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+input {
+    font-family: Inter;
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    padding-left: 25px;
+    border: 2px solid #B295FF;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    background-color: #6943FF;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #6943FF;
+}
+
+#convert-section {
+    margin: 0px;
+    background: #1F2937;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversion-box {
+    margin-top: 40px;
+    background-color: #273549;
+    width: 400px;
+    padding: 15px;
+}
+
+h4 {
+    margin-top: 4px;
+    color: #CCC1FF;
+}
+
+p {
+    margin-top: 12px;
+    color: aliceblue;
+}
+
+#mass {
+    margin-bottom: 20px;
+}
